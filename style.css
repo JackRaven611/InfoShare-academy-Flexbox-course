@@ -16,12 +16,15 @@ body{
 .flex-container{
     display: flex;
     background: #fff;
-    flex: 1;
+    flex-wrap: wrap;
+    flex-flow: column-reverse;
+    justify-content: flex-start;
+    height: 800px;
 }
 
 .box{
     height: 100px;
-    flex-basis: 500px;
+    flex: 0 0 100px;
 }
 
 .one{
