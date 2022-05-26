@@ -16,18 +16,17 @@ body{
 .flex-container{
     display: flex;
     background: #fff;
-    flex-wrap: nowrap;
+    flex: 1;
 }
 
 .box{
     height: 100px;
-    width: 200px;
-    flex-grow: 1;
+    flex-basis: 500px;
 }
 
 .one{
     background: red;
-    
+
 }
 
 .two{
